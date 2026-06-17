@@ -39,6 +39,8 @@
             padding: 20px 24px;
             margin-bottom: 0;
             border-bottom: 3px solid #1e3a5f;
+            background: white;
+
           }
           .doc-logo { height: 56px; width: 56px; flex-shrink: 0; }
           .doc-header .brand { display: flex; flex-direction: column; gap: 2px; }
@@ -122,8 +124,8 @@
             padding: 2px 10px;
             font-size: 12px;
             font-weight: 500;
-            background: #0f172a;
-            color: #f8fafc;
+            background: #8bafba;
+            color: #007396;
             white-space: nowrap;
           }
 
