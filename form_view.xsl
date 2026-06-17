@@ -34,23 +34,25 @@
             display: flex;
             align-items: center;
             gap: 16px;
-            background: #1e3a5f;
             color: white;
             border-radius: 8px 8px 0 0;
             padding: 20px 24px;
             margin-bottom: 0;
+            border-bottom: 3px solid #1e3a5f;
           }
+          .doc-logo { height: 56px; width: 56px; flex-shrink: 0; }
           .doc-header .brand { display: flex; flex-direction: column; gap: 2px; }
           .doc-header .brand-name {
-            font-size: 11px;
+            font-size: 20px;
             font-weight: 600;
             letter-spacing: 0.08em;
             text-transform: uppercase;
             opacity: 0.7;
           }
           .doc-header .form-type {
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 700;
+            color: #1e3a5f;
           }
           .doc-header .meta {
             margin-left: auto;
@@ -162,8 +164,9 @@
       <body>
         <div class="page">
           <div class="doc-header">
+            <img src="https://delta-wq-flow-data.github.io/dsvt-export-stylesheet/dsvt-logo-bg-transparent.png" alt="DSVT Logo" class="doc-logo"/>
             <div class="brand">
-              <span class="brand-name">DSVT · Delta Site Visit Tool</span>
+              <span class="brand-name">Delta Site Visit Tool</span>
               <span class="form-type">
                 <xsl:value-of select="DSVTFormSubmission/DisplayData/@formType"/>
               </span>
