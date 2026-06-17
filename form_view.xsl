@@ -45,11 +45,11 @@
           .doc-logo { height: 56px; width: 56px; flex-shrink: 0; }
           .doc-header .brand { display: flex; flex-direction: column; gap: 2px; }
           .doc-header .brand-name {
+            color: #000;
             font-size: 20px;
             font-weight: 600;
             letter-spacing: 0.08em;
             text-transform: uppercase;
-            opacity: 0.7;
           }
           .doc-header .form-type {
             font-size: 18px;
