@@ -124,7 +124,7 @@
             padding: 2px 10px;
             font-size: 12px;
             font-weight: 500;
-            background: #8bafba;
+            background: #8bafba0a;
             color: #007396;
             white-space: nowrap;
           }
