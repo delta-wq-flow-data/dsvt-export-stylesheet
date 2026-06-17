@@ -34,7 +34,6 @@
             display: flex;
             align-items: center;
             gap: 16px;
-            color: white;
             border-radius: 8px 8px 0 0;
             padding: 20px 24px;
             margin-bottom: 0;
@@ -50,6 +49,8 @@
             font-weight: 600;
             letter-spacing: 0.08em;
             text-transform: uppercase;
+            height: 20px;
+            width: auto;
           }
           .doc-header .form-type {
             font-size: 18px;
@@ -124,7 +125,7 @@
             padding: 2px 10px;
             font-size: 12px;
             font-weight: 500;
-            background: #8bafba0a;
+            background: #8bafba1a;
             color: #007396;
             white-space: nowrap;
           }
@@ -168,7 +169,7 @@
           <div class="doc-header">
             <img src="https://delta-wq-flow-data.github.io/dsvt-export-stylesheet/dsvt-logo-bg-transparent.png" alt="DSVT Logo" class="doc-logo"/>
             <div class="brand">
-              <span class="brand-name">Delta Site Visit Tool</span>
+            <img src="https://delta-wq-flow-data.github.io/dsvt-export-stylesheet/dsvt-wordmark-black.svg" alt="DSVT Wordmark" class="brand-name"/>
               <span class="form-type">
                 <xsl:value-of select="DSVTFormSubmission/DisplayData/@formType"/>
               </span>
